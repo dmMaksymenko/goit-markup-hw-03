@@ -17,7 +17,6 @@ a {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -28,7 +27,6 @@ a {
   padding: 0 15px;
   margin: 0 auto;
   border: 1px solid red;
-  display: flex;
 }
 .section {
   padding-top: 120px;
@@ -100,12 +98,11 @@ box-sizing: border-box;
 .header-nav {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
-.header-list,
-.address-list {
+.header-list {
 display: flex;
 gap: 40px;
-padding: 24px 0;
 }
 
 .header-nav-item {
@@ -114,13 +111,13 @@ padding: 24px 0;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  padding: 24px 0;
+}
+..header-nav-item:last-child {
+  margin-right: 332px;
 }
 .address {
   font-style: normal;
-}
-.address-list-item,
-.header-nav-item {
-  margin-right: 40px;
 }
 
 .address-list-item {
@@ -165,6 +162,7 @@ padding: 24px 0;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  margin: 0 auto;
 }
 .main-banner-btn:hover ,
 .main-banner-btn:focus {
