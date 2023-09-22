@@ -94,15 +94,18 @@ box-sizing: border-box;
 .header {
   border-bottom: 1px solid #E7E9FC;
 }
-
+.header-container {
+  display: flex;
+}
 .header-nav {
   display: flex;
   align-items: center;
-  gap: 40px;
 }
 .header-list {
 display: flex;
 gap: 40px;
+margin-right: 332px;
+padding: 24px 0;
 }
 
 .header-nav-item {
@@ -111,15 +114,18 @@ gap: 40px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  padding: 24px 0;
-}
-..header-nav-item:last-child {
-  margin-right: 332px;
-}
-.address {
-  font-style: normal;
 }
 
+.address {
+  font-style: normal;
+  gap: 40px;
+}
+
+.address-list {
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
+}
 .address-list-item {
   color: #434455;
   line-height: 1.5;
