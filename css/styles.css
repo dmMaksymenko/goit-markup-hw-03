@@ -94,8 +94,6 @@ box-sizing: border-box;
 }
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #E7E9FC;
 }
 
@@ -106,7 +104,8 @@ box-sizing: border-box;
 .header-list,
 .address-list {
 display: flex;
-margin
+gap: 40px;
+padding: 24px 0;
 }
 
 .header-nav-item {
@@ -218,7 +217,8 @@ row-gap: 48px;
 }
 .footer {
   background-color: #2E2F42;
-  padding: 100px 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
