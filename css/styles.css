@@ -17,6 +17,7 @@ a {
   margin: -1px;
   border: 0;
   padding: 0;
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -113,6 +114,7 @@ padding: 24px 0;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  padding: 24px 0;
 }
 
 .address {
