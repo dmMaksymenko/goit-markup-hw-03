@@ -1,11 +1,14 @@
+/* ============ GENERAL ================ */
 body {
   color: #434455;
   font-family: Roboto, sans-serif;
   background-color: #FFF;
 }
+
 ul {
   list-style-type: none;
 }
+
 a {
   text-decoration: none;
 }
@@ -23,11 +26,13 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .container {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
+
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -37,7 +42,6 @@ img {
 display: block;
 max-width: 100%; 
 height: auto;
-
 }
 
 h1,h2,h3,h4,h5,h6,p,ul {
@@ -45,14 +49,15 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
+/* ================ ================== */
 
+/* ================ MIXED 2nd,3rd and 4th block ============= */
 .features-text,
 .team-list-text,
 .portfolio-list-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  text-align: center;
 }
 .features-title,
 .team-title,
@@ -75,8 +80,12 @@ box-sizing: border-box;
   line-height: 1.2;
   letter-spacing: 0.4px;
   margin-bottom: 8px;
-  text-align: center;
+  /* text-align: center; */
 }
+/* ==================== ==================== */
+
+/* ================ HEADER  ================ */
+
 .logo {
   color: #4D5AE5;
   font-family: Raleway, sans-serif;
@@ -104,8 +113,6 @@ box-sizing: border-box;
 .header-list {
 display: flex;
 gap: 40px;
-margin-right: 332px;
-padding: 24px 0;
 }
 
 .header-nav-item {
@@ -115,47 +122,55 @@ padding: 24px 0;
   line-height: 1.5;
   letter-spacing: 0.32px;
   padding: 24px 0;
+  display: block;
 }
 
 .address {
   font-style: normal;
-  gap: 40px;
+  margin-left: auto;
 }
 
 .address-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
+  margin-left: auto;
 }
+
 .address-list-item {
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: flex;
+  padding: 24px 0;
 }
+
 .address-list-item:hover,
 .address-list-item:focus,
 .header-nav-item:focus,
 .header-nav-item:hover {
   color: #404bbf;
 }
+/* ================ =================== */
 
+/* =================== MAIN 1st block =================== */
 .main-banner {
   background: #2E2F42;
-  text-align: center;
   padding-top: 188px;
   padding-bottom: 188px;
 }
+
 .main-banner-header {
   color: #FFF;
-  text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
   margin-bottom: 48px;
   max-width: 496px;
-  padding: 188px 472px 0 472px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .main-banner-btn {
   color: #FFF;
   font-size: 16px;
@@ -171,22 +186,32 @@ padding: 24px 0;
   cursor: pointer;
   margin: 0 auto;
 }
+
 .main-banner-btn:hover ,
 .main-banner-btn:focus {
   background-color: #404BBF;
   cursor: pointer;
 }
+
+/* ================ =================== */
+
+/* =============== FEATURES 2nd block================= */
+
 .features-list {
   display: flex;
   gap: 24px;
 }
+
 .features-item {
   flex-basis: calc((100% - 72px) / 4);
 }
+/* ============ ===================== */
 
+/* ================ TEAM 3rd block ============= */
 .team {
   background-color: #F4F4FD;
 }
+
 .team-list {
   display: flex;
   gap: 24px;
@@ -200,11 +225,11 @@ padding: 24px 0;
 
 .worker-info {
   padding: 32px 0;
-}
-/* .team-list-header {
   text-align: center;
-  margin-bottom: 8px;
-} */
+}
+/* ============ =================== */
+
+/* ================= PORTFOLIO 4th block =============== */
 .portfolio-list {
 display: flex;
 flex-wrap: wrap;
@@ -216,15 +241,21 @@ row-gap: 48px;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+  text-align: left;
 }
+
 .portfolio-item {
   width: calc((100% - 48px) / 3);
 }
+/* ================== =================== */
+
+/* =============== FOOTER ================= */
 .footer {
   background-color: #2E2F42;
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -235,14 +266,16 @@ row-gap: 48px;
   text-transform: uppercase;
   display: inline-block;
   margin-bottom: 16px;
-
 }
+
 .footer-logo-style {
 color: #f4f4fd;
 }
+
 .footer-text {
   color: #F4F4FD;
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px
 }
+/* ================= ==================== */
