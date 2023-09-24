@@ -140,7 +140,7 @@ gap: 40px;
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  display: flex;
+  display: block;
   padding: 24px 0;
 }
 
